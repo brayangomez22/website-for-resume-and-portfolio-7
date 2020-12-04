@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registro/Login</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link href="https://fonts.googleapis.com/css?family=PT+Serif&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans&display=swap" rel="stylesheet">
+</head>
+<body class="fondo-registro">
+<header class="container_registro-login">
+    <form class="signUp" id="registro-login">
+        <h3 class="titulo_registro-login">CREA TU CUENTA</h3>
+        <p class="parrafo_resgistro-login">Simplemente ingrese su dirección de correo electrónico<br>y tu contraseña para unirte.</p>
+        <input id="input" class="w100" type="email" placeholder="Insertar eMail">
+        <input id="input" type="password" placeholder="Insertar Contraseña" >
+        <input id="input" type="password" placeholder="Verifcar Contraseña">
+        <button id="button" class="form-btn sx log-in" type="button">Log In</button>
+        <button id="button" class="form-btn dx" type="submit">Sign Up</button>
+    </form>
+    <form class="signIn" id="registro-login">
+        <h3 class="titulo_registro-login">Bienvenido</br>De Nuevo !</h3>
+        <button id="button" class="fb" type="button">Log In With Facebook</button>
+        <p class="parrafo_resgistro-login">- que disfrutes -</p>
+        <input id="input" type="email" placeholder="Inserte eMail">
+        <input id="input" type="password" placeholder="Inserte Contraseña">
+        <button id="button" class="form-btn sx back" type="button">Back</button>
+        <button id="button" class="form-btn dx" type="submit">Log In</button>
+    </form>
+</header>
+
+<script src="js/jquery.min.js"></script>
+<script src="js/registro-login.js"></script>
+</body>
+</html>
